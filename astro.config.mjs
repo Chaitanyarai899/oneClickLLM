@@ -8,7 +8,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "LLM deployment",
+      title: "OneClickLLM",
       social: {
         github: "https://github.com/HoomanHQ/akash-hack2.0",
       },
