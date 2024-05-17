@@ -17,7 +17,7 @@ export default defineConfig({
         {
           label: "Free Api",
           autogenerate: {
-            directory: "Free demo API",
+            directory: "free-demo-api",
           },
         },
         {
