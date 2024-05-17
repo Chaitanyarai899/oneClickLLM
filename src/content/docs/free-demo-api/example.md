@@ -10,7 +10,7 @@ In order to promote the spirit of open source, we are providing this free API en
 - You can use this base link to acess the API:
 
 ```shell
-http://67in39p3ipfv343uct23raf524.ingress.a100.mon.obl.akash.pub
+https://kk3lu4jbrtdr98lh63g7vrq75k.ingress.akash-cloud.com
 
 ```
 Here are some examples:
