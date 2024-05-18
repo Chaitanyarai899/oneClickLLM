@@ -326,6 +326,11 @@ const Deployments = () => {
                   size: 61GB
                 storage:
                   - size: 33GB
+                gpu:
+                  units: 1
+                  attributes:
+                    vendor:
+                      nvidia:
           placement:
             dcloud:
               pricing:
