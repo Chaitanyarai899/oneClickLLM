@@ -17,7 +17,7 @@ Deploy open source models within seconds on Akash Network:
 
 - [Generate a completion](#generate-a-completion)
 - [Generate a chat completion](#generate-a-chat-completion)
-- [List Local Models](#list-local-models)
+- [List loaded Models](#list-loaded-models)
 - [Show Model Information](#show-model-information)
 
 ## Conventions
@@ -367,7 +367,7 @@ curl http://baseAkashUrl/api/chat -d '{
 }
 ```
 
-## List Local Models
+## List Loaded Models
 
 ```shell
 GET /api/tags
