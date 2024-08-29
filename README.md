@@ -1,54 +1,111 @@
-# Starlight Starter Kit: Basics
+# 🌟 One-Click LLM
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+One-Click LLM is an open-source solution that lets you deploy and run any LLM (Large Language Model) of your choice in the form of an API, compatible with the OpenAI library. It's a drop-in replacement for your projects that utilize the OpenAI library or any other API/library for LLMs.
 
-```
-npm create astro@latest -- --template starlight
-```
+With just a few clicks on the Web UI, you can select your preferred LLM, deploy it, and receive a custom Docker Compose file. This file can be run on any platform of your choice, such as an EC2 instance on AWS, Elastic Beanstalk, or a VM on Azure or GCP. 🚀
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📚 Features
 
-## 🚀 Project Structure
+- **Easy Deployment**: Deploy your LLM with just one click.
+- **Custom Docker Compose**: Automatically generate a Docker Compose file for your chosen LLM.
+- **Cloud Agnostic**: Run your LLM on any platform - AWS, Azure, GCP, or your local machine.
+- **Open Source**: Contribute to the project, raise PRs for new features, or suggest improvements.
+- **Astro Project**: Built using Astro, providing a fast and optimized development experience.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+---
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+## 🛠️ Tech Stack
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+- **Astro**: Frontend framework
+- **Docker**: Containerization
+- **Node.js**: Backend server
+- **Shell Scripting**: COnfiguration
+- **AWS, Azure, GCP**: Deployment options
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+---
 
-Static assets, like favicons, can be placed in the `public/` directory.
+## 🚀 Quick Start
 
-## 🧞 Commands
+### Prerequisites
 
-All commands are run from the root of the project, from a terminal:
+- Node.js installed
+- Git installed
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Steps to Build Locally
 
-## 👀 Want to learn more?
+1. **Clone the Repository**:  
+   ```bash
+   git clone {repository_link}
+   ```
+   
+2. **Navigate to the Directory**:  
+   ```bash
+   cd repo
+   ```
+   
+3. **Install Dependencies**:  
+   ```bash
+   npm install
+   ```
+   
+4. **Run the Development Server**:  
+   ```bash
+   npm run dev
+   ```
+   
+Now, your project is up and running locally! 🎉
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+---
+
+## 🌍 Deploying on Your Own
+
+If you wish to deploy this project on your own infrastructure:
+
+1. **Build the Project**:  
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy the Project**:  
+   Deploy the project on any platform of your choice - AWS EC2, Azure VM, GCP VM, etc.
+
+---
+
+## 💻 Usage
+
+1. **Go to the Web UI**:  
+   Open the browser and navigate to the Web UI.
+
+2. **Select LLM**:  
+   Choose the LLM of your choice from the list.
+
+3. **Deploy**:  
+   Hit deploy, and you will receive a custom Docker Compose file.
+
+4. **Run Anywhere**:  
+   Use the Compose file on any platform to run the LLM.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a PR.
+
+Feel free to raise a PR for any new feature or improvements. Let's build something amazing together! 🚀
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+If you have any suggestions or need assistance, don't hesitate to reach out! 😊
