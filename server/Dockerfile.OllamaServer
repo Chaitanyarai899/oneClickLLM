@@ -1,0 +1,8 @@
+FROM ollama/ollama
+
+RUN apt update -y && apt install bash -y
+WORKDIR /app
+
+RUN ollama serve & \
+    sleep 5
+
