@@ -5,14 +5,6 @@ description: Deploy and use your Private LLM Inference API
 
 ### Streamling LLM Infrence API Deployment on Akash Network via Ollama, vLLM and Llama-cpp
 
-Deploy open source models within seconds and few clicks on Akash Network:
-
-- Our Aim is to streamline the deployment of LLM APIs on the Akash network. yada yada yada
-- Our goal is to make it easy for users to deploy their preferred LLM models without having to worry about the underlying infrastructure.
-- Users can simply select the LLM model they wish to deploy, and we will provide them with a proper SDL file with pre-configured infrence server.
-- Once users have the SDL file, they can use it to deploy the LLM API on the Akash network with just a few clicks on cloudmos/console.
-- The deployment process is fully automated and managed by the Akash network, which ensures that the service is highly available, scalable, and secure.
-
 ## Endpoints
 
 - [Generate a completion](#generate-a-completion)
